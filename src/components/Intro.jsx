@@ -1,6 +1,6 @@
 import Wrapper from "../assets/wrappers/Intro";
 import Wave from "/waving-hand.png";
-import Me from "/my-image.JPG";
+import Me from "/my-image.jpg";
 import { AiOutlineFileText } from "react-icons/ai";
 import { IoHammerOutline } from "react-icons/io5";
 
