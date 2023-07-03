@@ -1,8 +1,8 @@
 import Wrapper from "../assets/wrappers/Nav";
 
-const Nav = () => {
+const Nav = ({ navRef }) => {
     return (
-        <Wrapper>
+        <Wrapper ref={navRef}>
             <a className="website-logo" href="#">
                 JDVR
             </a>

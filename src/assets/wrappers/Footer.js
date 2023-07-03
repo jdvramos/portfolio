@@ -33,7 +33,8 @@ const Wrapper = styled.div`
         font-family: var(--headingFont);
         margin-top: 1.2rem;
         margin-bottom: 1.8rem;
-        font-size: 1.2rem;
+        font-size: 1.4rem;
+        text-align: center;
     }
 
     @media (max-width: 750px) {

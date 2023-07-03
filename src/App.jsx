@@ -9,19 +9,24 @@ import Footer from "./components/Footer";
 import { useRef } from "react";
 
 const App = () => {
-    const targetRef = useRef(null);
+    const navRef = useRef(null);
+    const projectsRef = useRef(null);
 
     const scrollIntoProjects = () => {
-        targetRef.current.scrollIntoView({ behavior: "smooth" });
+        projectsRef.current.scrollIntoView({ behavior: "smooth" });
+    };
+
+    const scrollIntoNav = () => {
+        navRef.current.scrollIntoView({ behavior: "smooth" });
     };
 
     return (
         <Wrapper>
-            <Nav />
+            <Nav navRef={navRef} />
             <Intro scrollIntoProjects={scrollIntoProjects} />
             <AboutMe />
             <TechStack />
-            <Projects targetRef={targetRef} />
+            <Projects projectsRef={projectsRef} scrollIntoNav={scrollIntoNav} />
             <ContactMe />
             <Footer />
         </Wrapper>

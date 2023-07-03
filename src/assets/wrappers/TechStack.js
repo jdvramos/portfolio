@@ -57,6 +57,12 @@ const Wrapper = styled.div`
             text-align: center;
         }
     }
+
+    @media (max-width: 400px) {
+        .tech-stack-container {
+            gap: 3rem;
+        }
+    }
 `;
 
 export default Wrapper;

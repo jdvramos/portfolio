@@ -49,14 +49,14 @@ const Wrapper = styled.div`
     }
 
     .project-details {
-        font-size: 1.2rem;
+        font-size: 1.4rem;
         padding: 0 20px;
         margin-bottom: 0;
         text-align: center;
     }
 
     .one-liner {
-        margin-bottom: 24px;
+        margin-bottom: 28px;
     }
 
     .button-group {
@@ -72,6 +72,7 @@ const Wrapper = styled.div`
             display: flex;
             align-items: center;
             justify-content: center;
+            cursor: pointer;
             color: var(--bodyColor);
             transition: all 0.3s ease;
 
@@ -105,18 +106,17 @@ const Wrapper = styled.div`
         }
 
         .project-details {
-            font-size: 1.4rem;
             margin-bottom: 1.6rem;
         }
 
         .feature-title {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             padding: 0 20px;
             align-self: flex-start;
         }
 
         .app-features {
-            font-size: 1.5rem;
+            font-size: 1.4rem;
             padding: 0 20px;
             margin-left: 20px;
             align-self: flex-start;
