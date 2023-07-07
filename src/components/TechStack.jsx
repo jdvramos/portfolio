@@ -99,7 +99,7 @@ const TechStack = () => {
                     <div className="tech-stack-icon">
                         <img src={Tailwind} alt="" />
                     </div>
-                    <span className="tech-stack-name">Tailwind</span>
+                    <span className="tech-stack-name">Tailwind CSS</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
