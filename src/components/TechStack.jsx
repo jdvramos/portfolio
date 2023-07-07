@@ -9,9 +9,9 @@ import MongoDB from "/mongodb.png";
 import MySQL from "/mysql.png";
 import PostgreSQL from "/postgresql.png";
 import MUI from "/mui.png";
-import Bootstrap from "/bootstrap.png";
+import Tailwind from "/tailwind.png";
 import StyledComponents from "/styled-components.png";
-import Vite from "/vite.png";
+import TypeScript from "/typescript.png";
 import ReduxToolkit from "/redux.png";
 import ReactQuery from "/react-query.png";
 import Git from "/git.png";
@@ -79,9 +79,9 @@ const TechStack = () => {
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
-                        <img src={Vite} alt="" />
+                        <img src={TypeScript} alt="" />
                     </div>
-                    <span className="tech-stack-name">Vite</span>
+                    <span className="tech-stack-name">TypeScript</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
@@ -97,9 +97,9 @@ const TechStack = () => {
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
-                        <img src={Bootstrap} alt="" />
+                        <img src={Tailwind} alt="" />
                     </div>
-                    <span className="tech-stack-name">Bootstrap</span>
+                    <span className="tech-stack-name">Tailwind</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
