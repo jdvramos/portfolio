@@ -8,12 +8,15 @@ import ExpressJS from "/expressjs.png";
 import MongoDB from "/mongodb.png";
 import MySQL from "/mysql.png";
 import PostgreSQL from "/postgresql.png";
-import MUI from "/mui.png";
-import Tailwind from "/tailwind.png";
-import StyledComponents from "/styled-components.png";
 import TypeScript from "/typescript.png";
 import ReduxToolkit from "/redux.png";
 import ReactQuery from "/react-query.png";
+import Vite from "/vite.png";
+import NextJS from "/nextjs.png";
+import Tailwind from "/tailwind.png";
+import Bootstrap from "/bootstrap.png";
+import MUI from "/mui.png";
+import StyledComponents from "/styled-components.png";
 import Git from "/git.png";
 import GitHub from "/github.png";
 import SocketIO from "/socket.png";
@@ -95,11 +98,31 @@ const TechStack = () => {
                     </div>
                     <span className="tech-stack-name">React Query</span>
                 </div>
+
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Vite} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Vite</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={NextJS} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Next.js</span>
+                </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
                         <img src={Tailwind} alt="" />
                     </div>
                     <span className="tech-stack-name">Tailwind CSS</span>
+                </div>
+
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Bootstrap} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Bootstrap</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
