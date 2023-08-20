@@ -17,6 +17,9 @@ import Tailwind from "/tailwind.png";
 import Bootstrap from "/bootstrap.png";
 import MUI from "/mui.png";
 import StyledComponents from "/styled-components.png";
+import Dart from "/dart.png";
+import Flutter from "/flutter.png";
+import Riverpod from "/riverpod.png";
 import Git from "/git.png";
 import GitHub from "/github.png";
 import SocketIO from "/socket.png";
@@ -117,7 +120,6 @@ const TechStack = () => {
                     </div>
                     <span className="tech-stack-name">Tailwind CSS</span>
                 </div>
-
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
                         <img src={Bootstrap} alt="" />
@@ -135,6 +137,24 @@ const TechStack = () => {
                         <img src={StyledComponents} alt="" />
                     </div>
                     <span className="tech-stack-name">styled-components</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Dart} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Dart</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Flutter} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Flutter</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Riverpod} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Riverpod</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
