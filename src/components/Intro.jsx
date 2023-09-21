@@ -13,7 +13,7 @@ const Intro = ({ scrollIntoProjects }) => {
                     <p>Hello there!</p>
                 </div>
                 <p className="name">
-                    I'm{" "}
+                    I&apos;m{" "}
                     <span className="highlight-color">
                         Jonn Denzel V. Ramos
                     </span>
@@ -31,7 +31,9 @@ const Intro = ({ scrollIntoProjects }) => {
                     </a>
                     <a
                         className="intro-button resume"
-                        href="mailto:jonndenzelramos@gmail.com"
+                        href="https://drive.google.com/file/d/1AueYBivlNWZiO4xdCoPdKmBJIs7CeCAo/view?usp=sharing"
+                        target="_blank"
+                        rel="noreferrer"
                     >
                         Resume
                         <AiOutlineFileText className="button-icon" size={16} />
