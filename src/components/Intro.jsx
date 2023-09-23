@@ -31,7 +31,7 @@ const Intro = ({ scrollIntoProjects }) => {
                     </a>
                     <a
                         className="intro-button resume"
-                        href="https://drive.google.com/file/d/1AueYBivlNWZiO4xdCoPdKmBJIs7CeCAo/view?usp=sharing"
+                        href="https://drive.google.com/file/d/1hUuHwx0uKhKuunfRyXK-NgO0fRf0Jmpf/view?usp=sharing"
                         target="_blank"
                         rel="noreferrer"
                     >
