@@ -9,6 +9,9 @@ import MongoDB from "/mongodb.png";
 import MySQL from "/mysql.png";
 import PostgreSQL from "/postgresql.png";
 import TypeScript from "/typescript.png";
+import PHP from "/php.png";
+import Prisma from "/prisma.png";
+import Zustand from "/zustand.jpg";
 import ReduxToolkit from "/redux.png";
 import ReactQuery from "/react-query.png";
 import Vite from "/vite.png";
@@ -17,6 +20,9 @@ import Tailwind from "/tailwind.png";
 import Bootstrap from "/bootstrap.png";
 import MUI from "/mui.png";
 import StyledComponents from "/styled-components.png";
+import ShadcnUI from "/shadcnui.png";
+import TestingLibrary from "/testing-library.png";
+import Jest from "/jest.png";
 import Dart from "/dart.png";
 import Flutter from "/flutter.png";
 import Riverpod from "/riverpod.png";
@@ -91,6 +97,24 @@ const TechStack = () => {
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
+                        <img src={PHP} alt="" />
+                    </div>
+                    <span className="tech-stack-name">PHP</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Prisma} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Prisma</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Zustand} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Zustand</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
                         <img src={ReduxToolkit} alt="" />
                     </div>
                     <span className="tech-stack-name">Redux Toolkit</span>
@@ -137,6 +161,24 @@ const TechStack = () => {
                         <img src={StyledComponents} alt="" />
                     </div>
                     <span className="tech-stack-name">styled-components</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={ShadcnUI} alt="" />
+                    </div>
+                    <span className="tech-stack-name">shadcn-ui</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={TestingLibrary} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Testing Library</span>
+                </div>
+                <div className="tech-stack-item">
+                    <div className="tech-stack-icon">
+                        <img src={Jest} alt="" />
+                    </div>
+                    <span className="tech-stack-name">Jest</span>
                 </div>
                 <div className="tech-stack-item">
                     <div className="tech-stack-icon">
